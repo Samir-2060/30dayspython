@@ -8,7 +8,7 @@ else:
 
 
 #Program 2
-not_handsome=False
+handsome=False
 not_rich_kid=True
-if not_handsome or not_rich_kid:
+if handsome or not_rich_kid:
     print("You will be single")
