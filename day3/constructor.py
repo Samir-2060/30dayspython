@@ -27,3 +27,13 @@ class Person:
 name2=Person("samir")
 print(name2.name)
 name2.talk()
+
+#program4
+class Person:
+    def __init__(self,name):
+        self.name=name
+
+    def talk(self):
+        print(f"Hi I am a {self.name}")
+name2=Person("samir")
+name2.talk()
