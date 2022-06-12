@@ -37,3 +37,16 @@ class Person:
         print(f"Hi I am a {self.name}")
 name2=Person("samir")
 name2.talk()
+
+#program5
+class Person:
+    def __init__(self,name):
+        self.name=name
+
+    def talk(self):
+        print(f"Hi I am a {self.name}")
+name2=Person("samir")
+name2.talk()
+
+name3=Person("bishal")
+name3.talk()
